@@ -4,6 +4,8 @@
 
 Simple react weather application for code and stack practice.
 
+[View on Web](https://weatherapp-a8676.web.app/)
+
 Stack used: 
 Frontend:
 • React
