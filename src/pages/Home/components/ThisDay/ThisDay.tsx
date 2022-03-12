@@ -15,7 +15,7 @@ export const ThisDay = ({ weather }: Props) => {
     useEffect(() => {
         setInterval(() => {
             setTime(moment().format('HH:mm:ss'));
-        }, 1000);
+        }, 1000); 
     })
 
     return (
