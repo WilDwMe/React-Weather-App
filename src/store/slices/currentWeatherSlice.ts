@@ -17,6 +17,15 @@ const initialState: CurrentWeather = {
     weather: {
         main: {
             temp: 0,
+            feels_like: 0,
+            pressure: 0,
+        },
+        weather: [{
+            description: 'нет данных'
+        }],
+        wind: {
+            speed: 0,
+            deg: 0
         },
         name: '',
         dt: 0
