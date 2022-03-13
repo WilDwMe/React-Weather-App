@@ -25,7 +25,6 @@ export const ThisDayInfo = (props: Props) => {
 
     const windDirection = (num: number) => {
         const value = Math.round(num / 22.5)
-        console.log(value);
         const directions = ['Северный', 'Северный, Северо-восточный', 'Северо-восточный', 'Восточный, Северо-восточный', 'Восточный',
             'Восточный, Юго-восточный', 'Юго-восточный', 'Южный, Юго-восточный', 'Южный', 'Южный, Юго-западный', 'Юго-западный',
             'Западный, Юго-западный', 'Западный', 'Западный, Северо-западный', 'Северо-западный', 'Северный, Северо-западный'];
@@ -34,7 +33,6 @@ export const ThisDayInfo = (props: Props) => {
     };
 
     const directionSting = windDirection(weather.wind.deg);
-    console.log(directionSting);
 
     const items = [{
         icon_id: 'temp',
