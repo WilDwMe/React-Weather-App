@@ -29,14 +29,14 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: #fff;
-      box-shadow: 1px 4px 10px -1px rgba(71, 147, 255, 0.2);
-      border-radius: 50%;
+      // background-color: #fff;
+      // box-shadow: 1px 4px 10px -1px rgba(71, 147, 255, 0.2);
+      // border-radius: 50%;
     }
 
     .indicator__name,
     .indicator__value {
-      font-size: 16px;
+      font-size: 18px;
     }
     .indicator__name {
       color: $base-color;

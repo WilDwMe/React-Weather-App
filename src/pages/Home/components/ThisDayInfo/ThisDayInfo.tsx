@@ -35,14 +35,14 @@ export const ThisDayInfo = (props: Props) => {
     const directionSting = windDirection(weather.wind.deg);
 
     const items = [{
-        icon_id: 'temp',
+        icon_id: 'tempPlus',
         name: 'Температура',
         value: `${Math.floor(weather.main.temp)}° - ощущается как ${Math.floor(weather.main.feels_like)}°`
     },
     {
         icon_id: 'pressure',
         name: 'Давление',
-        value: `${weather.main.pressure} мм ртутного столба - нормальное`
+        value: `${weather.main.pressure} мм ртутного столба`
     },
     {
         icon_id: 'precipitation',
