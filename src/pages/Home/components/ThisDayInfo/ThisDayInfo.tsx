@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useCustomDispatch, useCustomSelector } from '../../../../hooks/store';
+import { useCustomSelector } from '../../../../hooks/store';
 import { selectCurrentWeatherData } from '../../../../store/selectors';
 import s from './ThisDayInfo.module.scss';
 import cloud from '../../../../assets/images/cloud.png';
